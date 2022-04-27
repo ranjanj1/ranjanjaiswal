@@ -1,0 +1,339 @@
+/************************ Navbar ***************** */
+.navbarZ {
+    font-family: 'Roboto Mono', monospace;
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    max-width: 1500px;
+    z-index: 9999;
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+    transition: all 0.3s ease;
+    position: relative;
+    min-height: auto !important;
+    margin-bottom: 0 !important;
+    border: none;
+}
+
+
+.navbar-bg {
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    height: 60px;
+    max-width: none !important;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+.navbar-wh {
+    background-color: var(--white-bg);
+    height: 70px;
+}
+
+.navbar-ch {
+    background-color: var(--white-bg);
+    box-shadow: 0 1px 10px #00000033;
+    height: 75px;
+}
+
+
+/*************************** Logo *********************** */
+.head a {
+    text-decoration: none;
+}
+
+.head h1 {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+}
+
+.head h1 span {
+    font-weight: 900;
+    color: var(--green);
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    padding: 0 12px;
+}
+
+.head img {
+    height: 65px;
+    border-radius: 50%;
+}
+
+/****************** Main Links ******************** */
+
+.head-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-link .heada {
+    list-style: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin: 0 5px;
+}
+
+.head-link .heada.heada a:hover {
+    color: var(--green);
+}
+
+.head-link .heada a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 7px;
+    font-size: 18px;
+    font-size: var(--fz-xs);
+    letter-spacing: 1px;
+}
+
+.main-link {
+    color: var(--green);
+}
+
+#resume {
+    color: var(--green);
+    border: 2px solid var(--green);
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#resume a {
+    color: var(--green);
+}
+
+#resume:hover {
+    background-color: var(--green-tint);
+}
+
+/************************** Menu *********************** */
+#nav-icon1 {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    display: none;
+}
+
+#nav-icon1 .line {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    background: var(--green);
+    border-radius: 9px;
+    opacity: 1;
+    right: 30%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .50s ease-in-out;
+    -moz-transition: .50s ease-in-out;
+    -o-transition: .50s ease-in-out;
+    transition: .50s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+    top: 5px;
+}
+
+#nav-icon1 span:nth-child(2) {
+    top: 15px;
+    transition: 0.3s;
+}
+
+#nav-icon1 span:nth-child(3) {
+    top: 25px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 30% !important;
+    width: 50% !important;
+}
+
+#nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    right: -100px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 30% !important;
+    width: 50% !important;
+}
+
+.line1 {
+    width: 65% !important;
+}
+
+.line2 {
+    width: 55% !important;
+}
+
+.line3 {
+    width: 45% !important;
+}
+
+@keyframes line {
+    0% {
+        margin-left: 2000px;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.line:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.line:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.line:nth-child(3) {
+    animation-delay: .9s;
+}
+
+.menu {
+    display: none;
+}
+
+/****************** Media ***************************** */
+@media screen and (max-width:932px) {
+    #resume {
+        border: 2px solid var(--green);
+        padding: 15px 30px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    #nav-icon1 {
+        display: flex;
+        z-index: 9999999;
+    }
+
+    .navbarZ {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .head {
+        margin-left: 25px;
+    }
+
+    .heada span {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .head-link .heada {
+        margin: 0;
+    }
+
+    .topnav.responsive .nav-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--white-bg);
+        position: fixed;
+        width: 50% !important;
+        top: -15%;
+        right: 0%;
+        min-height: 100vh;
+        z-index: 99999;
+        animation: slide-right 0.3s ease;
+    }
+
+    .topnav.responsive .nav-items li {
+        margin: 0px !important;
+        padding: 10px;
+    }
+
+    .topnav.responsive .nav-items li a {
+        width: fit-content;
+        color: var(--green);
+        font-size: var(--fz-sm);
+        padding: 0px;
+    }
+
+    .topnav.responsive .nav-items li a:hover {
+        width: fit-content;
+        color: var(--green-dark);
+    }
+
+    @keyframes slide-right {
+        0% {
+            margin-right: -500px;
+        }
+
+        100% {
+            margin-right: 0px;
+        }
+    }
+
+    .topnav.responsive .menu #nav-icon1 {
+        position: fixed;
+        top: 1%;
+        right: 1%;
+        z-index: 99999;
+        margin-right: -3px;
+        margin-top: 5.5px;
+    }
+
+    .topnav.responsive .menu #nav-icon1 span {
+        background: var(--green);
+    }
+
+}
