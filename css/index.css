@@ -237,7 +237,7 @@ body {
 
 /* ********** Main class or home page first view ********* */
 .main {
-    background: linear-gradient(to bottom, #000000c0, #000000be), url(./img/bg.jpeg) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #000000c0, #000000be), url(../img/bg.jpeg) no-repeat center center/cover;
     height: 100vh;
     background-attachment: fixed;
     display: flex;
@@ -774,24 +774,24 @@ h1.big-tint-heading, .contact-page h1 {
 }
 
 .cart-zero {
-    background: linear-gradient(to bottom, #00000071, #00000075), url(./img/cartZero.png) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #00000071, #00000075), url(../img/cartZero.png) no-repeat center center/cover;
 }
 
 .cart-one {
-    background: linear-gradient(to bottom, #00000071, #00000075), url(./img/cartOne.png) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #00000071, #00000075), url(../img/cartOne.png) no-repeat center center/cover;
 }
 
 .cart-two {
-    background: linear-gradient(to bottom, #00000071, #00000075), url(./img/cartTwo.png) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #00000071, #00000075), url(../img/cartTwo.png) no-repeat center center/cover;
 }
 
 .cart-three {
-    background: linear-gradient(to bottom, #00000071, #00000075), url(./img/cartThree.jpg) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #00000071, #00000075), url(../img/cartThree.jpg) no-repeat center center/cover;
 }
 
 
 .cart-four {
-    background: linear-gradient(to bottom, #00000071, #00000075), url(./img/cartFour.png) no-repeat center center/cover;
+    background: linear-gradient(to bottom, #00000071, #00000075), url(../img/cartFour.png) no-repeat center center/cover;
 }
 
 .cart-five {
