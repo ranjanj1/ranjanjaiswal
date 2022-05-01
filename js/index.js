@@ -12,7 +12,7 @@ document.onclick = function (e) {
   // preloader
   setTimeout(function () {
     $('.loader_bg').fadeToggle();
-}, 2500);
+}, 1000);
 ///dsfsaf
 
 $(function () {
