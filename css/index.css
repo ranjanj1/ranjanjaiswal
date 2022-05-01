@@ -37,9 +37,9 @@
     --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     --logo-color: rgb(255, 188, 5);
     --logo-vypln-color: #ffbc05;
-    --anim-Logo: 3.3s;
-    --anim-opacity_Logo_vypln: .9s;
-    --anim-opacity_Logo_vypln-delay: .9s;
+    --anim-Logo: .3s;
+    --anim-opacity_Logo_vypln: .5s;
+    --anim-opacity_Logo_vypln-delay: .1s;
 }
 
 * {
