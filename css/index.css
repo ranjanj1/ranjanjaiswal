@@ -545,10 +545,10 @@ h1.big-tint-heading, .contact-page h1 {
     color: var(--green);
 }
 
-.box h2, .box h3 {
+ .box h4 {
     color: var(--light);
 }
-.box h2 {
+.box h3 {
     color: var(--green-dark);
 }
 
