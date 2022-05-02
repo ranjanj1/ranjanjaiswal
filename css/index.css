@@ -546,7 +546,7 @@ h1.big-tint-heading, .contact-page h1 {
     color: var(--green);
 }
 
- .box h4 {
+ .box h4, .box-inner h4 {
     color: var(--light);
 }
 .box h3 {
